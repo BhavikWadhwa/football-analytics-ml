@@ -1,3 +1,6 @@
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://football-analytics-ml-canadawest.streamlit.app)
+
+
 # Canada West Soccer Match Predictor
 
 A Python + Streamlit web app that scrapes real match data from the [Canada West Soccer League](https://canadawest.org/sports/msoc/2025-26/schedule), trains a predictive model, and lets users predict match outcomes between any two university teams.
@@ -69,11 +72,11 @@ streamlit run app.py
 
 ## Model Details
 
-Algorithm: Logistic Regression
+**Algorithm**: Logistic Regression
 
-Features Used: Encoded home/away teams, goal differences
+**Features Used**: Encoded home/away teams, goal differences
 
-Target Classes: home_win, away_win, draw
+**Target Classes**: home_win, away_win, draw
 
 ## Deployment
 
